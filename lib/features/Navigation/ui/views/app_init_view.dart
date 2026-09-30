@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/theme/TenetEssentialTheme.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/theme/TenetEssentialThemeData.dart';
 import 'package:tenet_finance/features/Card/controller/card_controller.dart';
 import 'package:tenet_finance/features/Card/controller/card_list_controller.dart';
 import 'package:tenet_finance/features/Card/domain/card_object.dart';
-import 'package:tenet_finance/features/Card/domain/repo/card_repo.dart';
 import 'package:tenet_finance/features/Card/ui/views/card_edit_view.dart';
 import 'package:tenet_finance/features/Navigation/controllers/navigation_controller.dart';
 import 'package:tenet_finance/features/Transaction/controllers/transaction_categories_controller.dart';
-import 'package:tenet_finance/features/Transaction/controllers/transactions_list_controller.dart';
 
 class AppInitView extends StatefulWidget {
   Widget child;
@@ -21,14 +17,6 @@ class AppInitView extends StatefulWidget {
 
 class _AppInitViewState extends State<AppInitView> {
   late final CardListController cardListController;
-  void _loadCards() async {
-    // final list = await CardRepo.getAll();
-    // WidgetsBinding.instance.addPostFrameCallback((_) {
-    //   setState(() {
-    //     cards = list;
-    //   });
-    // });
-  }
 
   @override
   void initState() {

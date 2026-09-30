@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tenet_kit/flutter_tenet_kit.dart';
 import 'package:provider/provider.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/borderd_box/focused_box_border.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/Buttons/GlowButton.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/containers/WithLabelContainer.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/TextFields/PrimaryTextField.dart';
 import 'package:tenet_finance/features/Transaction/controllers/transaction_categories_controller.dart';
 import 'package:tenet_finance/features/Transaction/domain/entities/transaction_category.dart';
 

@@ -1,16 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_tenet_kit/flutter_tenet_kit.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:persian_number_utility/persian_number_utility.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/borderd_box/focused_box_border.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/Buttons/GlowButton.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/builders/FormBuilder.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/containers/OverlayWidgetV1.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/containers/DialogContainer.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/containers/WithLabelContainer.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/enums/field_input_type.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/shadow_store/shadow_store.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/TextFields/PrimaryTextField.dart';
 import 'package:tenet_finance/core/utils/formatter_util.dart';
 import 'package:tenet_finance/features/Card/domain/card_object.dart';
 import 'package:tenet_finance/features/Card/domain/repo/card_repo.dart';

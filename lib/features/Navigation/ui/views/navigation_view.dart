@@ -1,20 +1,16 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_tenet_kit/flutter_tenet_kit.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:ink_widget/ink_widget.dart';
 import 'package:provider/provider.dart';
-import 'package:simple_gradient_text/simple_gradient_text.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/shadow_store/shadow_store.dart';
 import 'package:tenet_finance/core/constants/colors/app_color.dart';
-import 'package:tenet_finance/core/constants/colors/card_color.dart';
-import 'package:tenet_finance/core/constants/sizes/app_radius.dart';
 import 'package:tenet_finance/features/Navigation/controllers/navigation_controller.dart';
 import 'package:tenet_finance/features/Navigation/domain/entities/nav_item_model.dart';
 import 'package:tenet_finance/features/Home/ui/views/home_view.dart';
 import 'package:tenet_finance/features/Transaction/controllers/transactions_list_controller.dart';
 import 'package:tenet_finance/features/Transaction/domain/entities/transaction.dart';
-import 'package:tenet_finance/features/Transaction/logic/financial_report.dart';
 import 'package:tenet_finance/features/Transaction/ui/views/transaction_list_view.dart';
 import 'package:tenet_finance/features/Transaction/utils/show_edit_transaction_dialog.dart';
 

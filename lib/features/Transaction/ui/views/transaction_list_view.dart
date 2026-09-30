@@ -1,19 +1,10 @@
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_tenet_kit/flutter_tenet_kit.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:ink_widget/ink_widget.dart';
 import 'package:persian_number_utility/persian_number_utility.dart';
 import 'package:provider/provider.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/CheckBox/PrimaryCheckBox.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/borderd_box/focused_box_border.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/Buttons/GlowButton.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/containers/OverlayWidgetV1.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/containers/DialogContainer.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/containers/WithLabelContainer.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/dialog/show_custom_dialog.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/overlay/OverlayTriggerWidget.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/shadow_store/shadow_store.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/TextFields/PrimaryTextField.dart';
+
 import 'package:tenet_finance/core/constants/colors/app_color.dart';
 import 'package:tenet_finance/core/utils/formatter_util.dart';
 import 'package:tenet_finance/core/widgets/containers/header_title.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_tenet_kit/flutter_tenet_kit.dart';
 import 'package:provider/provider.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/dialog/show_custom_dialog.dart';
 import 'package:tenet_finance/features/Transaction/controllers/transaction_categories_controller.dart';
 import 'package:tenet_finance/features/Transaction/controllers/transaction_controller.dart';
 import 'package:tenet_finance/features/Transaction/controllers/transactions_list_controller.dart';

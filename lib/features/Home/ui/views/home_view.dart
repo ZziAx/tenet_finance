@@ -1,12 +1,10 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:hexcolor/hexcolor.dart';
+import 'package:flutter_tenet_kit/flutter_tenet_kit.dart';
 import 'package:persian_number_utility/persian_number_utility.dart';
 import 'package:provider/provider.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
-import 'package:tenet_finance/3rd/flutter_tenet_essential/shadow_store/shadow_store.dart';
-import 'package:tenet_finance/core/constants/colors/app_color.dart';
 import 'package:tenet_finance/core/constants/colors/card_color.dart';
 import 'package:tenet_finance/core/constants/sizes/app_radius.dart';
 import 'package:tenet_finance/core/utils/formatter_util.dart';
@@ -14,10 +12,8 @@ import 'package:tenet_finance/core/widgets/containers/header_title.dart';
 import 'package:tenet_finance/features/Card/controller/card_controller.dart';
 import 'package:tenet_finance/features/Card/controller/card_list_controller.dart';
 import 'package:tenet_finance/features/Card/ui/views/card_edit_view.dart';
-import 'package:tenet_finance/features/Navigation/controllers/navigation_controller.dart';
 import 'package:tenet_finance/features/Transaction/controllers/transactions_list_controller.dart';
 import 'package:tenet_finance/features/Transaction/logic/financial_report.dart';
-import 'package:tenet_finance/features/Transaction/ui/views/transaction_edit_view.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
