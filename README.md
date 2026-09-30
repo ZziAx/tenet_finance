@@ -1,6 +1,6 @@
 # Money Finance Tracker
 
-![Preview](./preview.png)
+![Preview](./assets/cover1.png)
 
 A simple and modern Flutter app for tracking personal income, expenses, and transactions.
 
