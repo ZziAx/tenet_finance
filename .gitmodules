@@ -1,0 +1,3 @@
+[submodule "packages/flutter_tenet_kit"]
+	path = packages/flutter_tenet_kit
+	url = https://github.com/ZziAx/flutter_tenet_kit.git

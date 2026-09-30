@@ -14,6 +14,7 @@ import 'package:tenet_finance/features/Card/controller/card_list_controller.dart
 import 'package:tenet_finance/features/Card/ui/views/card_edit_view.dart';
 import 'package:tenet_finance/features/Transaction/controllers/transactions_list_controller.dart';
 import 'package:tenet_finance/features/Transaction/logic/financial_report.dart';
+import 'package:tenet_finance/features/Transaction/ui/views/transaction_edit_view.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
